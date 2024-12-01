@@ -1,4 +1,8 @@
-# CLIM680 Final Project
+# **CLIM680 Final Project**
 
-## Go Sato
+## **The global spatial SST anomaly variabilities in 6ka and preindustrial era identified by 4 ENSO indices**
+
+### **Go Sato**
+
+### Introdction
 
