@@ -16,9 +16,12 @@
 
 [Nino index description from NCAR](https://climatedataguide.ucar.edu/climate-data/nino-sst-indices-nino-12-3-34-4-oni-and-tni)
 
+The number of El Nino events in Nino1+2 is the smallest among the 4 indices (603 months), and it increases as it goes to the west (703, 763, and 848, respectively). 
+
 ![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino1+2_regression_mh.png?raw=true)
 
 ### Disussion
+
 
 ### Conclusion
 
