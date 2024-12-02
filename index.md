@@ -25,6 +25,7 @@ The number of El Nino events in Nino1+2 is the smallest among the 4 indices (603
 ![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino4_composits_pi.png?raw=true)
 Fig 2 Composits of El Nino and La Nina months in piControl
 
+Fig 3 shows the linear regression analysis between each index and the global SST anomalies in piControl. Comparing the regression of El Nino to La Nina, the area of pronounced positive correlation along the equator is meridionally shrinked in the regression of La Nina in all indices. Zonally, however, the latter one is more extensive to the west than the former one. In El Nino plots, there are strong positive correlations (r >=0.5 or <=-0.5) in the South Pacific, west coast of the North America which is only in Nino4, and some coastal areas, while negative correlation in the North Pacific, the Maritime continent, and the SPCZ zone. From La Nina plots, we can see the similar charactersitics, but it is less clear.
 
 ![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino1+2_regression_pi.png?raw=true)
 ![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino3_regression_pi.png?raw=true)
@@ -34,7 +35,10 @@ Fig 3 Linear regression between each index and the global SST anomalies in piCon
 
 
 ### midHolocene
-As we see in the piControl outputs, the number of El Nino events increase from Nino1+2 to Nino4 (621, 674, 711, 764, respectively). All of indices show decreased number of El Nino events in the midHolocene.
+As we see in the piControl outputs, the number of El Nino events increase from Nino1+2 to Nino4 (621, 674, 711, 764, respectively). All of indices show decreased number of El Nino events in the mid-Holocene.
+
+Fig 5 shows the linear regression analysis between each index and the global SST anomalies in the mid-Holocene. Comparing the regression of El Nino to La Nina, the area of pronounced positive correlation along the equator is meridionally shrinked in the regression of La Nina in all indices. Zonally, however, the latter one is more extensive than the former one. In El Nino plots, there are strong positive correlations (r >=0.5 or <=-0.5) in the South Pacific, west coast of the North America, and Indian Ocean, while negative correlation in the North Pacific, the Maritime continent, and the SPCZ zone. From La Nina plots, we can see the similar charactersitics, but it is less clear.
+
 ## Disussion
 
 
