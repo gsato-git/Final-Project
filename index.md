@@ -25,7 +25,6 @@ The number of El Nino events in Nino1+2 is the smallest among the 4 indices (603
 ![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino4_composits_pi.png?raw=true)
 Fig 2 Composits of El Nino and La Nina months in piControl
 
-
 ![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino1+2_regression_pi.png?raw=true)
 ![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino3_regression_pi.png?raw=true)
 ![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino3.4_regression_pi.png?raw=true)
