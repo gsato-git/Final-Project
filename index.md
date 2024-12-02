@@ -18,3 +18,11 @@
 
 ![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino1+2_regression_mh.png?raw=true)
 
+### Disussion
+
+### Conclusion
+
+
+### References
+NCAR Nino SST Indices (Nino 1+2, 3, 3.4, 4; ONI and TNI) URL:https://climatedataguide.ucar.edu/climate-data/nino-sst-indices-nino-12-3-34-4-oni-and-tni
+
