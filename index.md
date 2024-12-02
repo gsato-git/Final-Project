@@ -11,5 +11,5 @@
 
 ### Result
 
-(https://github.com/gsato-git/Final-Project/blob/plots/Index_regions.png)
+https://github.com/gsato-git/Final-Project/blob/plots/Index_regions.png
 
