@@ -11,4 +11,5 @@
 
 ### Result
 
-![image](https://github.com/user-attachments/assets/d5006084-c5a4-444b-bf05-f02bc7f662e6)
+[Index regions](https://github.com/gsato-git/Final-Project/blob/plots/Index_regions.png)
+
