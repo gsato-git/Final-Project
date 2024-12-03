@@ -33,6 +33,7 @@ I use the outputs from the Comunity Earth System Model 2 ([CESM2](https://www.ce
 Doing the same analysis as the piControl
 
 *mid-Holocene vs. piControl*
+
 Comparing the composite El Nino and La Nina SST anomalies between mid-Holocene and piControl for 4 indices (scipy.stats ttest_ind)
 
 
