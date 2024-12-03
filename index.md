@@ -12,7 +12,7 @@ To understand the spatial pattern of ENSO, there are 4 types of Nino index acros
 ## Method
 I use the outputs from the Comunity Earth System Model 2 ([CESM2](https://www.cesm.ucar.edu/models/cesm2)) by the NCAR for piControl and mid-Holocene. All input variables in the piControl run are set as the time 1850BP. For mid-Holocene run, the orbital parameters are set to 6000 years ago, and greenhouse gas concentrations are also set to the known values at 6000 years ago. The horizontal resolution is lat/lon; 0.5°/1.0°, and the temporal resolution is monthly. In each output, I picked up the last 200 years where the model outputs are considered to reach the equilibrium state. The analysis is following;
 
-*preindustrial*
+*piControl*
 
 1. Getting the last 200 years (sel function)
 
@@ -29,6 +29,7 @@ I use the outputs from the Comunity Earth System Model 2 ([CESM2](https://www.ce
 7. For El Nino and La Nina months, calculating the correlation coefficients between each ENSO index and global El Nino/La Nina composite SST anomalies with statistical significance (scipy.stats linregress)
 
 *mid-Holocene*
+
 Doing the same analysis as the piControl
 
 *mid-Holocene vs. piControl*
