@@ -85,6 +85,11 @@ NCAR Nino SST Indices (Nino 1+2, 3, 3.4, 4; ONI and TNI) URL:https://climatedata
 
 ## codes
 [piControl](https://github.com/gsato-git/Final-Project/blob/main/piControl.ipynb)
+
 [mid-Holocene](https://github.com/gsato-git/Final-Project/blob/main/midHolocene.ipynb)
+
 [mid-Holocene vs piControl](https://github.com/gsato-git/Final-Project/blob/main/pi-mh.ipynb)
+
+## conda environment
+([conda environment](https://ondemand.orc.gmu.edu/pun/sys/dashboard/files/fs//home/gsato/climate.yml)
 
