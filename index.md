@@ -6,6 +6,7 @@
 
 ## Introdction
 El Niño–Southern Oscillation (ENSO) is one of the most dominant and strongest events in terms of its influence on the whole globe, and research has been revealed its strong variations on orbital time scales due to changes in latitudinal and seasonal distribution of incoming solar radiation (Lu et al., 2018; Brown et al., 2020; Carré et al., 2021).
+
 To understand the spatial pattern of ENSO, there are 4 types of Nino index across the equatorial Pacific; Nino1+2, Nino3, Nino3.4, and Nino4. It has been investigated that how the distinct types of ENSO events has been changing using these indices; Eastern type of El Nino, central El Nino, and La Nina throughout the Holocene (Carré et al., 2014; Karamperidou et al., 2015; Karamperidou and DiNezio 2022). Especially, the mid-Holocene exhibits the increased solar radiation in the boreal summer and decreased solar radiation in the boreal winter, so that this period gives us important insights into the climate response to very distinctive solar radiation changes. Here I would like to use the 4 indices and examine the spatial distribution of ENSO events in the preindustrial era (hereafter piControl) and 6000 years ago (hereafter mid-Holocene) to know how the ENSO has been changed spatially under different solar radiation inputs.
 
 ## Method
@@ -82,13 +83,21 @@ From the composite and regression analysis, we know that the influence of ENSO e
 
 ## References
 Brown, J. R. et al., Comparison of past and future simulations of ENSO in CMIP5/PMIP3 and CMIP6/PMIP4 models, Clim. Past, 16, 1777–1805 (2020). https://doi.org/10.5194/cp-16-1777-2020
+
 Berger, A.; Loutre, M.-F. Insolation values for the climate of the last 10 million years. Quat. Sci. Rev, 10, 297–317 (1991). https://doi.org/10.1016/0277-3791(91)90033-Q
+
 Emile-Geay Julien et al. Links between tropical Pacific seasonal, interannual and orbital variability during the Holocene. Nature Geosci 9, 168–173 (2016). https://doi.org/10.1038/ngeo2608
+
 Karamperidou Cristina et al., The response of ENSO flavors to mid-Holocene climate: Implications for proxy interpretation, Paleoceanography, 30, 527–547 (2015). doi:10.1002/2014PA002742
+
 Karamperidou, C., DiNezio, P.N. Holocene hydroclimatic variability in the tropical Pacific explained by changing ENSO diversity. Nat Commun 13, 7244 (2022). https://doi.org/10.1038/s41467-022-34880-8
+
 Kim M. Cobb et al., Highly Variable El Niño–Southern Oscillation Throughout the Holocene.Science339,67-70(2013). DOI:10.1126/science.1228246
+
 Matthieu Carré et al., High-resolution marine data and transient simulations support orbital forcing of ENSO amplitude since the mid-Holocene. Quaternary Science Reviews, 268-107125 (2021).https://doi.org/10.1016/j.quascirev.2021.107125
+
 Matthieu Carré et al., Holocene history of ENSO variance and asymmetry in the eastern tropical Pacific.Science345,1045-1048(2014).DOI:10.1126/science.1252220
+
 National Center for Atmospheric Research (NCAR). (n.d.). Niño SST indices: Niño 1+2, 3, 3.4, 4, ONI, and TNI. UCAR Climate Data Guide. Retrieved December 3, 2024, from https://climatedataguide.ucar.edu/climate-data/nino-sst-indices-nino-12-3-34-4-oni-and-tni
 
 ## codes
