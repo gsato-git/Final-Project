@@ -13,6 +13,7 @@ To understand the spatial pattern of ENSO, there are 4 types of Nino index acros
 I use the outputs from the Comunity Earth System Model 2 (CESM2) by the NCAR for piControl and mid-Holocene. All input variables in the piControl run are set as the time 1850BP. For mid-Holocene run, the orbital parameters are set to 6000 years ago, and greenhouse gas concentrations are also set to the known values at 6000 years ago. The horizontal resolution is lat/lon; 0.5°/1.0°, and the temporal resolution is monthly. In each output, I picked up the last 200 years where the model outputs are considered to reach the equilibrium state. The analysis is following;
 
 *preindustrial*
+
 Calculating climatology (groupby function) => getting monthly global SST anomalies
 Calculating the spatial mean of SST in 4 ENSO indices (sel function), then getting SSTAs
 Extracting months with SSTA < -0.5℃ and > 0.5℃ => getting composite El Niño, La Niña, and Neutral months (sel function)
