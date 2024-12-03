@@ -15,6 +15,7 @@ I use the outputs from the Comunity Earth System Model 2 (CESM2) by the NCAR for
 *preindustrial*
 
 Calculating climatology (groupby function) => getting monthly global SST anomalies
+
 Calculating the spatial mean of SST in 4 ENSO indices (sel function), then getting SSTAs
 Extracting months with SSTA < -0.5℃ and > 0.5℃ => getting composite El Niño, La Niña, and Neutral months (sel function)
 For 2 cases above, checking correlation coefficients between the individual ENSO index and global El Nino/La Nina composite SST anomalies with calculating statistical significance
