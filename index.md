@@ -60,7 +60,7 @@ Fig 3 shows the linear regression analysis between each index and the global SST
 Fig 3 Linear regression between each index and the global SST anomalies in piControl
 
 
-### midHolocene
+### mid-Holocene
 As we see in the piControl outputs, the number of El Nino events increases from Nino1+2 to Nino4 (621, 674, 711, 764, respectively). All of the indices show a decreased number of El Nino events compared to piControl. However, there are increased number of La Nina events compared to piControl in all indices. Among the indices, the Nino1+2 and Nino4 indices show a relatively smaller number of La Nina events (735 and 730, respectively) than Nino3 and Nino3.4 (782 and 778, respectively). The Nino4 shows the center of positive/negative anomalies along the equator is shifted to the west. 
 
 ![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino1+2_composits_mh.png?raw=true)
