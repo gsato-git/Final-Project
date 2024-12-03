@@ -5,19 +5,20 @@
 ## **Go Sato**
 
 ## Introdction
-El Niño–Southern Oscillation (ENSO) is one of the most dominant and strongest events in terms of its influence on the whole globe. To understand the influence of ENSO, there are 4 types of Nino index across the equatorial Pacific; Nino1+2, Nino3, Nino3.4, and Nino4. They are useful to capture the spatial ENSO, so it has been investigated that there are distinct types of ENSO events using these indices; Eastern type of El Nino, central El Nino, and La Nina throughout the Hololocene (Carré et al., 2014; Karamperidou et al., 2015; Karamperidou and DiNezio 2022). Here I would like to examine the spatial distribution of ENSO events in the preindustrial era (hereafter piControl) and the mid-Holocene (6000 years ago) to know how the ENSO have been changed spatially using the 4 indices.
+El Niño–Southern Oscillation (ENSO) is one of the most dominant and strongest events in terms of its influence on the whole globe. To understand the impact of ENSO, there are 4 types of Nino index across the equatorial Pacific; Nino1+2, Nino3, Nino3.4, and Nino4. They are useful to capture the spatial ENSO, so it has been investigated that there are distinct types of ENSO events using these indices; Eastern type of El Nino, central El Nino, and La Nina throughout the Holocene (Carré et al., 2014; Karamperidou et al., 2015; Karamperidou and DiNezio 2022). Here I would like to examine the spatial distribution of ENSO events in the preindustrial era (hereafter piControl) and the mid-Holocene (6000 years ago) to know how the ENSO has been changed spatially using the 4 indices.
 
 ## Method
-I use the Comunity Earth System Model2.1 from the NCAR output for piControl and midHolocene. All of input variables in the piControl run are set as the time 1850BP. For mid-Holocene run, the orbital parameters are set to 6000years ago, and greenhouse gas concentration are also set to the known values in 6000years ago. Horizontal resolution is lat/lon; 0.5°/1.0°, and temporal resolution is monthly. In each output, I picked up the last 200 years where the model outputs are considered to reach the equiliburium state. The analysis is following;
+I use the Comunity Earth System Model 2.1 from the NCAR output for piControl and mid-Holocene. All input variables in the piControl run are set as the time 1850BP. For mid-Holocene run, the orbital parameters are set to 6000 years ago, and greenhouse gas concentrations are also set to the known values at 6000 years ago. The horizontal resolution is lat/lon; 0.5°/1.0°, and the temporal resolution is monthly. In each output, I picked up the last 200 years where the model outputs are considered to reach the equilibrium state. The analysis is following;
 
 *preindustrial*
 Calculating climatology (groupby function) => getting monthly global SST anomalies
 Calculating the spatial mean of SST in 4 ENSO indices (sel function), then getting SSTAs
-Extracting months with SSTA < -0.5℃ and > 0.5℃ => getting composit El Niño, La Niña, and Neutral months (sel function)
-For 2 cases above, checking correlation coefficients between indivisual ENSO index and global El Nino/La Nina composit SST anomalies with calculating statistical significance
-midHolocene
+Extracting months with SSTA < -0.5℃ and > 0.5℃ => getting composite El Niño, La Niña, and Neutral months (sel function)
+For 2 cases above, checking correlation coefficients between the individual ENSO index and global El Nino/La Nina composite SST anomalies with calculating statistical significance
+
+*mid-Holocene*
 Doing the same analysis for 6ka
-Comparing the composit El Nino and La Nina SST anomalies between 6ka and preindustrial for 4 indices.
+Comparing the composite El Nino and La Nina SST anomalies between 6ka and preindustrial for 4 indices.
 
 
 ## Result
@@ -27,7 +28,7 @@ Comparing the composit El Nino and La Nina SST anomalies between 6ka and preindu
 [Nino index description from NCAR](https://climatedataguide.ucar.edu/climate-data/nino-sst-indices-nino-12-3-34-4-oni-and-tni)
 
 ### piControl
-The number of El Nino events in Nino1+2 is the smallest among the 4 indices (603 months), and it increases as it goes to the west (703, 763, and 848, respectively). About La Nina events, there is no clear relationship among the indices. In Nino4, the composit El Nino and La Nina show the center of SST anomalies along the equator shifts slightly westward than other indices. Compaing El Nino composit and La Nina composit in each index, the strong SST anomalies along the equator is meridinally more shrinked in La Nina than El Nino.
+The number of El Nino events in Nino1+2 is the smallest among the 4 indices (603 months), and it increases as it goes to the west (703, 763, and 848, respectively). About La Nina events, there is no clear relationship among the indices. In Nino4, the composite El Nino and La Nina show the center of SST anomalies along the equator shifts slightly westward than other indices. Comparing the El Nino composite and La Nina composite in each index, the strong SST anomalies along the equator are meridionally more shrinked in La Nina than in El Nino.
 
 ![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino1+2_composits_pi.png?raw=true)
 ![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino3_composits_pi.png?raw=true)
@@ -35,7 +36,7 @@ The number of El Nino events in Nino1+2 is the smallest among the 4 indices (603
 ![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino4_composits_pi.png?raw=true)
 Fig 2 Composits of El Nino and La Nina months in piControl
 
-Fig 3 shows the linear regression analysis between each index and the global SST anomalies in piControl. All of indices show there are strong positive correlations with SST anomalies along the equatorial Pacific in both El Nino and La Nina events. Thus, it means that when each of index show El Nino (La Nina) events, there are also warm (cold) SST anomalies along the equatorial Pacific. Conversely, all of indices show negative correlations with the Maritime Continents SST anomalies. There are 2 pairs among the indices in terms of the correlation distribution. Nino1+2 and Nino4 show similar patterns, while Nino3 and Nino3.4 show similar patterns as well. Comparing the regression of El Nino to La Nina, the area of pronounced positive correlation along the equator is meridionally shrinked in the regression of La Nina in all indices. Zonally, however, the latter one is more extensive to the west than the former one. In El Nino plots, there are strong positive correlations (r >=0.5 or <=-0.5) in the South Pacific, west coast of the North America which is only in Nino4, and some coastal areas, while negative correlation in the North Pacific, the Maritime continent, and the SPCZ zone. From La Nina plots, we can see the similar charactersitics, but it is less clear. 
+Fig 3 shows the linear regression analysis between each index and the global SST anomalies in piControl. All of the indices show there are strong positive correlations with SST anomalies along the equatorial Pacific in both El Nino and La Nina events. Thus, it means that when each index shows El Nino (La Nina) events, there are also warm (cold) SST anomalies along the equatorial Pacific. Conversely, all of the indices show negative correlations with the Maritime Continents SST anomalies. There are 2 pairs among the indices in terms of the correlation distribution. Nino1+2 and Nino4 show similar patterns, while Nino3 and Nino3.4 show similar patterns as well. Comparing the regression of El Nino to La Nina, the area of pronounced positive correlation along the equator is meridionally shrunk in the regression of La Nina in all indices. Zonally, however, the latter one is more extensive to the west than the former one. In El Nino plots, there are strong positive correlations (r >=0.5 or <=-0.5) in the South Pacific, the west coast of North America which is only in Nino4, and some coastal areas, while negative correlation in the North Pacific, the Maritime continent, and the SPCZ zone. From La Nina plots, we can see similar characteristics, but it is less clear. 
 
 ![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino1+2_regression_pi.png?raw=true)
 ![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino3_regression_pi.png?raw=true)
