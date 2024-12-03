@@ -14,16 +14,25 @@ I use the outputs from the Comunity Earth System Model 2 ([CESM2](https://www.ce
 
 *preindustrial*
 
-Calculating climatology (groupby function) => getting monthly global SST anomalies
+1. Getting the last 200 years (sel function)
 
-Calculating the spatial mean of SST in 4 ENSO indices (sel function), then getting SSTAs
+2. Calculating monthly global SST climatologies (groupby function) => getting monthly global SST anomalies by substracting the climatology from each month's SST
 
-Extracting months with SST anomalies < -0.5℃ and > 0.5℃ => getting composite El Niño, La Niña, and Neutral months (sel function)
-For 2 cases above, checking correlation coefficients between the individual ENSO index and global El Nino/La Nina composite SST anomalies with calculating statistical significance
+3. Creating 4 Nino indices (sel function)
+
+4. Getting El Nino, La Nina, and Neutral months (where function) by specifying as El Nino; SST anomaly > 0.5℃, La Nina; SST anomaly < -0.5℃; Neutral; -0.5℃ <= SST anomaly <= 0.5℃
+
+5. Getting the global SST anomalies in the same preiods as each Nino index (sel function and groupby function)
+
+6. Getting the composite SST anomalies in 4 indices (sel&dropna function and scipy.stats ttest_ind)
+
+7. For El Nino and La Nina months, calculating the correlation coefficients between each ENSO index and global El Nino/La Nina composite SST anomalies with statistical significance (scipy.stats linregress)
 
 *mid-Holocene*
-Doing the same analysis for 6ka
-Comparing the composite El Nino and La Nina SST anomalies between 6ka and preindustrial for 4 indices.
+Doing the same analysis as the piControl
+
+*mid-Holocene vs. piControl*
+Comparing the composite El Nino and La Nina SST anomalies between mid-Holocene and piControl for 4 indices (scipy.stats ttest_ind)
 
 
 ## Result
