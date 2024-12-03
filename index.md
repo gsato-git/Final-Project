@@ -10,14 +10,15 @@ El Niño–Southern Oscillation (ENSO) is one of the most dominant and strongest
 To understand the spatial pattern of ENSO, there are 4 types of Nino index across the equatorial Pacific; Nino1+2, Nino3, Nino3.4, and Nino4. It has been investigated that how the distinct types of ENSO events has been changing using these indices; Eastern type of El Nino, central El Nino, and La Nina throughout the Holocene (Carré et al., 2014; Karamperidou et al., 2015; Karamperidou and DiNezio 2022). Especially, the mid-Holocene exhibits the increased solar radiation in the boreal summer and decreased solar radiation in the boreal winter, so that this period gives us important insights into the climate response to very distinctive solar radiation changes. Here I would like to use the 4 indices and examine the spatial distribution of ENSO events in the preindustrial era (hereafter piControl) and 6000 years ago (hereafter mid-Holocene) to know how the ENSO has been changed spatially under different solar radiation inputs.
 
 ## Method
-I use the outputs from the Comunity Earth System Model 2 (CESM2) by the NCAR for piControl and mid-Holocene. All input variables in the piControl run are set as the time 1850BP. For mid-Holocene run, the orbital parameters are set to 6000 years ago, and greenhouse gas concentrations are also set to the known values at 6000 years ago. The horizontal resolution is lat/lon; 0.5°/1.0°, and the temporal resolution is monthly. In each output, I picked up the last 200 years where the model outputs are considered to reach the equilibrium state. The analysis is following;
+I use the outputs from the Comunity Earth System Model 2 (CESM2; (https://www.cesm.ucar.edu/models/cesm2)) by the NCAR for piControl and mid-Holocene. All input variables in the piControl run are set as the time 1850BP. For mid-Holocene run, the orbital parameters are set to 6000 years ago, and greenhouse gas concentrations are also set to the known values at 6000 years ago. The horizontal resolution is lat/lon; 0.5°/1.0°, and the temporal resolution is monthly. In each output, I picked up the last 200 years where the model outputs are considered to reach the equilibrium state. The analysis is following;
 
 *preindustrial*
 
 Calculating climatology (groupby function) => getting monthly global SST anomalies
 
 Calculating the spatial mean of SST in 4 ENSO indices (sel function), then getting SSTAs
-Extracting months with SSTA < -0.5℃ and > 0.5℃ => getting composite El Niño, La Niña, and Neutral months (sel function)
+
+Extracting months with SST anomalies < -0.5℃ and > 0.5℃ => getting composite El Niño, La Niña, and Neutral months (sel function)
 For 2 cases above, checking correlation coefficients between the individual ENSO index and global El Nino/La Nina composite SST anomalies with calculating statistical significance
 
 *mid-Holocene*
