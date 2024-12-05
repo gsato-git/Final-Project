@@ -46,10 +46,10 @@ I use the outputs from the Comunity Earth System Model 2 ([CESM2](https://www.ce
 ### piControl
 The number of El Nino events in Nino1+2 is the smallest among the 4 indices (603 months), and it increases as it goes to the west (703, 763, and 848, respectively). About La Nina events, there is no clear relationship among the indices. In each index, the strongest anomalies are close to the location of index. For example, in Nino4, the composite El Nino and La Nina show the center of SST anomalies along the equator shifts slightly westward than other indices. Comparing the El Nino composite and La Nina composite in each index, the strong SST anomalies along the equator are meridionally more expanded in El Nino than in La Nina.
 
-![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino1+2_composits_pi.png?raw=true)
-![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino3_composits_pi.png?raw=true)
-![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino3.4_composits_pi.png?raw=true)
-![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino4_composits_pi.png?raw=true)
+![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino1+2_composite_pi.png?raw=true)
+![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino3_composite_pi.png?raw=true)
+![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino3.4_composite_pi.png?raw=true)
+![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino4_composite_pi.png?raw=true)
 Fig 2 Composits of El Nino and La Nina months in piControl
 
 Fig 3 shows the linear regression analysis between each index and the global SST anomalies in piControl. All of the indices show there are strong positive correlations with SST anomalies along the equatorial Pacific in both El Nino and La Nina events. Thus, it means that when each index shows El Nino (La Nina) events, there are also warm (cold) SST anomalies along the equatorial Pacific. Conversely, all of the indices show negative correlations with the Maritime Continents SST anomalies.  Comparing the regression of El Nino to La Nina, the area of pronounced positive correlation along the equator is meridionally shrunk in the regression of La Nina in all indices. Zonally, however, the latter one is more extensive to the west than the former one. In El Nino plots, there are strong positive correlations (r >=0.5 or <=-0.5) in the South Pacific, the west coast of North America which is only in Nino4, and some coastal areas, while negative correlation in the North Pacific, the Maritime continent, and the SPCZ zone. From La Nina plots, we can see similar characteristics, but it is less clear. These patterns are similar to each other between Nino3 and Nino3.4, while Nino1+2 and Nino4 show the center of strong correlations close to the eastern side and western side, respectively.
@@ -64,10 +64,10 @@ Fig 3 Linear regression between each index and the global SST anomalies in piCon
 ### mid-Holocene
 As we see in the piControl outputs, the number of El Nino events increases from Nino1+2 to Nino4 (621, 674, 711, 764, respectively). All of the indices show a decreased number of El Nino events compared to piControl. However, there are increased number of La Nina events compared to piControl in all indices. Among the indices, the Nino1+2 and Nino4 indices show a relatively smaller number of La Nina events (735 and 730, respectively) than Nino3 and Nino3.4 (782 and 778, respectively). The Nino4 shows the center of positive/negative anomalies along the equator is shifted to the west. 
 
-![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino1+2_composits_mh.png?raw=true)
-![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino3_composits_mh.png?raw=true)
-![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino3.4_composits_mh.png?raw=true)
-![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino4_composits_mh.png?raw=true)
+![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino1+2_composite_mh.png?raw=true)
+![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino3_composite_mh.png?raw=true)
+![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino3.4_composite_mh.png?raw=true)
+![image](https://github.com/gsato-git/Final-Project/blob/plots/Nino4_composite_mh.png?raw=true)
 Fig 4 Composits of El Nino and La Nina months in midHolocene
 
 Fig 5 shows the linear regression analysis between each index and the global SST anomalies in the mid-Holocene. As we can see in Fig 3, all of the indices show there are strong positive correlations with local SST anomalies along the equatorial Pacific and strong negative correlations with the SST anomalies in the Maritime Continents in both El Nino and La Nina events. Thus, the relationship between  El Nino (La Nina) events indicated in each index and warm (cold) SST anomalies along the equatorial Pacific is the same as the piControl outputs. Comparing the regression of El Nino to La Nina, the area of pronounced positive correlation along the equator is meridionally less expanded in the regression of La Nina in all indices. Zonally, however, the latter one is more extensive than the former one. In El Nino plots, there are strong positive correlations (r >=0.5 or <=-0.5) in the South Pacific, the west coast of North America, and the Indian Ocean, while negative correlations in the North Pacific, the Maritime continent, and the SPCZ zone. From La Nina plots, we can see similar characteristics, but it is less clear.
